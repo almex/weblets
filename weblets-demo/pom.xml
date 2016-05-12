@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>net.java.dev.weblets</groupId>
+        <groupId>com.github.almex</groupId>
         <artifactId>weblets</artifactId>
         <version>1.1.3-SNAPSHOT</version>
     </parent>
 
 
-    <groupId>net.java.dev.weblets</groupId>
+    <groupId>com.github.almex</groupId>
     <artifactId>weblets-demo</artifactId>
     <packaging>war</packaging>
 
@@ -23,20 +23,20 @@
     <dependencies>
 
         <dependency>
-            <groupId>net.java.dev.weblets</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>weblets-api</artifactId>
             <version>${project.version}</version>
         </dependency>
 
 
         <dependency>
-            <groupId>net.java.dev.weblets</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>weblets-impl</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>net.java.dev.weblets</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>weblets-exampleweblet</artifactId>
             <version>${project.version}</version>
         </dependency>
